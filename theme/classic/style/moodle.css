@@ -15985,6 +15985,10 @@ body.jsenabled .questionflag input[type=checkbox] {
 
 #page-question-preview #techinfo {
   margin: 1em 0; }
+  #page-question-preview #techinfo #techinfo_caption {
+    display: inline-block; }
+  #page-question-preview #techinfo .extracontent {
+    display: inline-block; }
 
 #page-mod-quiz-edit ul.slots .activityinstance > a {
   display: flex;
@@ -17317,7 +17321,7 @@ select {
           .path-mod-forum .unified-grader .grader-grading-panel .header-container .user-search-container.collapsed .search-input-container .search-icon {
             opacity: 0;
             visibility: hidden;
-            transition: opacity 0s linear, visibility 0s linear; }
+            transition: opacity 0s linear, visibility 0s linear; }
           .path-mod-forum .unified-grader .grader-grading-panel .header-container .user-search-container.collapsed .search-input-container input {
             padding-left: 0;
             padding-right: 0; }
@@ -17327,13 +17331,13 @@ select {
             max-height: 0;
             max-width: 0;
             overflow: hidden;
-            transition: opacity 0s linear, max-height 0s linear, max-width 0s linear, visibility 0s linear; }
+            transition: opacity 0s linear, max-height 0s linear, max-width 0s linear, visibility 0s linear; }
           .path-mod-forum .unified-grader .grader-grading-panel .header-container .user-search-container.collapsed .search-input-container .toggle-search-button .collapsed-icon {
             opacity: 1;
             visibility: visible;
             max-width: 50px;
             max-height: 50px;
-            transition: opacity 0s linear, max-height 0s linear, max-width 0s linear, visibility 0s linear; }
+            transition: opacity 0s linear, max-height 0s linear, max-width 0s linear, visibility 0s linear; }
     .path-mod-forum .unified-grader .grader-grading-panel .header-container .user-search-container:not(.collapsed) + .info-container {
       opacity: 0;
       visibility: hidden;
