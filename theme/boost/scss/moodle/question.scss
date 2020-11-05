@@ -438,6 +438,12 @@ body.jsenabled .questionflag input[type=checkbox] {
 
 #page-question-preview #techinfo {
     margin: 1em 0;
+    #techinfo_caption {
+        display: inline-block;
+    }
+    .extracontent {
+        display: inline-block;
+    }
 }
 
 // imported from quiz.css

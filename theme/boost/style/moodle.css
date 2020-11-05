@@ -15219,6 +15219,10 @@ body.jsenabled .questionflag input[type=checkbox] {
 
 #page-question-preview #techinfo {
   margin: 1em 0; }
+  #page-question-preview #techinfo #techinfo_caption {
+    display: inline-block; }
+  #page-question-preview #techinfo .extracontent {
+    display: inline-block; }
 
 #page-mod-quiz-edit ul.slots .activityinstance > a {
   display: inline;
